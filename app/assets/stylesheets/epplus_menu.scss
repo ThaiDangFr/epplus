@@ -1,13 +1,13 @@
-#page_container {
-margin:40px;
-}
 
-
+      header {
+      background-color: #e4e4e4;
+      }
 .nav, .nav ul{
 padding:0;
 margin:0;
 list-style:none;
 text-align:center;
+
 }
 .nav li{
 display:inline-block;
@@ -31,60 +31,31 @@ max-height:0;
 left: 0;
 right: 0;
 overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+-moz-transition: .4s all .1s;
+-webkit-transition: .4s all .1s;
+transition: .4s all .1s;
 }
 .nav li:hover ul{
 max-height:15em;
 }
 /* background des liens menus */
-.nav li:first-child{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
-}
-.nav li:nth-child(2){
+.nav li{
 background-color: #729EBF;
 background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
 background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
-.nav li:nth-child(3){
-background-color: #F6AD1A;
-background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
-background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
-}
-.nav li:last-child{
-background-color: #CFFF6A;
-background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
-background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
-}
+
 /* background des liens sous menus */
-.nav li:first-child li{
-background:#2A2333;
-}
-.nav li:nth-child(2) li{
+.nav li li{
 background:#333A40;
 }
-.nav li:nth-child(3) li{
-background:#9F391A;
-}
-.nav li:last-child li{
-background:#677F35;
-}
+
 /* background des liens menus et sous menus au survol */
-.nav li:first-child:hover, .nav li:first-child li:hover{
-background:#65537A;
-}
-.nav li:nth-child(2):hover, .nav li:nth-child(2) li:hover{
+
+.nav li:hover, .nav li li:hover{
 background:#729EBF;
 }
-.nav li:nth-child(3):hover, .nav li:nth-child(3) li:hover{
-background:#F6AD1A;
-}
-.nav li:last-child:hover, .nav li:last-child li:hover{
-background:#CFFF6A;
-}
+
 /* les a href */
 .nav a{
 text-decoration:none;
@@ -103,4 +74,5 @@ text-transform:inherit;
 .nav li:hover a, .nav li li:hover a{
 color:#000;
 }
+
 
