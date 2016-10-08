@@ -19,7 +19,7 @@ Refinery::Resources.configure do |config|
 
   # Configure Dragonfly
   # config.dragonfly_verify_urls = true
-  # config.dragonfly_secret = "1e0fb2c4935b8add3243df33babdbfb207f1e95ce28da5cb"
+  config.dragonfly_secret = "1e0fb2c4935b8add3243df33babdbfb207f1e95ce28da5cb"
   # config.dragonfly_url_format = "/system/resources/:job/:basename.:ext"
   # config.dragonfly_url_host = ""
   # config.datastore_root_path = "/mnt/disk/epplus/epplus_1/public/system/refinery/resources"
