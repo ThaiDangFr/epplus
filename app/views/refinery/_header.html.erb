@@ -1,9 +1,8 @@
-<% I18n.locale = :fr %>
 <h1 id='logo'>
   <%= link_to Refinery::Core.site_name, refinery.root_path %>
 </h1>
 <div id='logo-titre'>
-EP-Plus.fr <label>> <%= I18n.l(Time.now, format: :long) %></label>
+EP-Plus.fr <label>> <%= I18n.with_locale("fr") { I18n.l(Time.now, format: :long) }%></label>
 </div> 
 
 
