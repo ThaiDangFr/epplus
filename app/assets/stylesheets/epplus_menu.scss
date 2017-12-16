@@ -2,9 +2,6 @@
 {
 
       header {
-      /*background-color: #e4e4e4;
-      background-color: #4e6d7f;
-      background-color: #70a6c4;*/
       background-color: #88c6ea;
       }
 
@@ -47,19 +44,19 @@ max-height:15em;
 /* background des liens menus */
 .nav li{
 background-color: #729EBF;
-background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+background-image: -webkit-linear-gradient(top, #0d8bd3 0%, #0d8bd3 100%);
+background-image:linear-gradient(to bottom, #0d8bd3 0%, #0d8bd3 100%);
 }
 
 /* background des liens sous menus */
 .nav li li{
-background:#333A40;
+background:#6c7eca;
 }
 
 /* background des liens menus et sous menus au survol */
 
 .nav li:hover, .nav li li:hover{
-background:#729EBF;
+background:#1c3089;
 }
 
 /* les a href */
@@ -78,7 +75,7 @@ color:#fff;
 text-transform:inherit;
 }
 .nav li:hover a, .nav li li:hover a{
-color:#000;
+color:#fff;
 }
 
 }
@@ -90,7 +87,6 @@ color:#000;
       {
       
       header {
-      /*background-color: #e4e4e4;*/
       background-color: #88c6ea;
       }
 
@@ -99,7 +95,7 @@ color:#000;
       margin:0;
       list-style:none;
       text-align:center;
-      background:#333A40;
+      background:#6c7eca;
 	text-transform: uppercase;font-size: 110%; 
       }
  
@@ -122,12 +118,13 @@ color:#000;
       }
       .nav li{
       background-color: #729EBF;
-      background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-      background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+      background-image: -webkit-linear-gradient(top, #0d8bd3 0%, #0d8bd3 100%);
+      background-image:linear-gradient(to bottom, #0d8bd3 0%, #0d8bd3 100%);
+
       }
 
       .nav li, .nav li li{
-      background:#729EBF;
+      background:#1c3089;
       }
 
       .nav ul li:first-child{
@@ -147,5 +144,11 @@ color:#000;
       .nav li li a{
       color:#fff;
       text-transform:inherit;
-      }    
+      }
+
+      .nav li a:hover{
+      color:#fff;
+      }
+     
+
       }
